@@ -6,4 +6,6 @@ services:
 before_install:
   - docker-compose version
 
-script: phpunit --bootstrap vendor/autoload.php tests/
+script:
+  - composer install 
+  - phpunit --bootstrap vendor/autoload.php tests/
