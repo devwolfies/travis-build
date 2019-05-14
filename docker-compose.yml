@@ -4,5 +4,5 @@ services:
   wordpress:
     build:
       context: ./docker
-      dockerfile: docker/Dockerfile
+      dockerfile: Dockerfile
     image: devwolfies/wordpress:latest
