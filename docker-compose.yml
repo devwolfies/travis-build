@@ -3,6 +3,6 @@ version: "3.1"
 services:
   wordpress:
     build:
-      context: .
+      context: ./docker
       dockerfile: docker/Dockerfile
     image: devwolfies/wordpress:latest
